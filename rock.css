@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 6rem;
+  line-height: 6rem;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.choice {
+  height: 190px;
+  width: 190px;
+  border-radius: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+
+img {
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+}/* this one is also for boxes only*/
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}/* for three boxes ke liye*/
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  gap: 4rem;
+  font-weight: bolder;
+}/* for 0 you and 0 comp only this one also*/
+
+
+#user-score,
+#computer-score {
+  font-size: 4rem;
+} /*for you and comp*/
+
+#msg {
+  margin-top: 3rem;
+  background-color: #081b31;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-weight: bolder;
+} /* play your move for button
+ 
